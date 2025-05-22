@@ -1,0 +1,62 @@
+
+.note-container {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.7);
+  }
+
+  .note-title {
+    color: #0c0202;
+  }
+  
+  .note-content {
+    color: #4f4e50;
+  }
+  
+  .note-date {
+    color: #525050;
+    font-size: 0.8rem;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 15px; 
+  }
+
+  
+  .delete-button,.edit-button {
+    background-color: #f03b2e; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  
+  }
+  
+  .delete-button:hover {
+    background-color: #f54e4e;
+  }
+
+  .edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .note-title-edit, .note-content-edit {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .save-button, .cancel-button {
+    margin-right: 10px;
+  }
+  
+  .save-button:hover, .cancel-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
